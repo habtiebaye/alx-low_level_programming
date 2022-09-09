@@ -7,9 +7,9 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-p = "is positive";
-n = "is negative"
-z = "is zero"
+char p = "is positive";
+char n = "is negative";
+char z = "is zero";
 if (n>0)
 {
 return (p);
