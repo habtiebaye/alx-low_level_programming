@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <time.h>
 
 /* more headers goes there */
@@ -21,19 +20,19 @@ int main(void)
     
     /* if condition is true then print the following */
     
-    printf(n, "is positive");
+    printf("%d is positive\n", n);
     
   } else if( n == 0 ) {
     
     /* if else if condition is true */
     
-    printf(n, "is zero");
+    printf("%d is zero\n", n);
     
   } else{
     
     /* if else if condition is true  */
     
-    printf(n, "is negative");
+    printf("%d is negative\n", n);
     
   }
   
