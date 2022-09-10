@@ -2,66 +2,88 @@
 
 /**
  *
- * * main - Prints 3 combination of numbers
+ *  * * main - main block
  *
- * *
+ *   * * Print all possible different combinations of 3 digits.
  *
- * * Return: Always (Success)
+ *    * * Numbers must be separated by commas and a space.
  *
- */
+ *     * * The 3 digits must be different.
+ *
+ *      * * 012, 120, 102, 021, 201, 210 are considered the same combination.
+ *
+ *       * * print only the smallest combination of 3 digits.
+ *
+ *        * * Numbers should be printed in ascending order.
+ *
+ *         * * You can only use `putchar` to print to console.
+ *
+ *          * * You can only use `putchar` up to 6 times.
+ *
+ *           * * You are not allowed to use any variables of type `char`.
+ *
+ *            * * Return: 0
+ *
+ *             * *
+ *
+ *              */
 
 int main(void)
 
 {
 
-		int c, i, k;
+		int a, b, c, d;
 
-			for (c = '0'; c <= '9'; c++)
+
+
+			for (a = 0; a < 1000; a++)
+
+
 
 					{
 
-								for (i = '0'; i <= '9'; i++)
+								b = a / 100; /* hundreds */
 
-											{
+										c = (a / 10) % 10; /* tens */
 
-															for (k = '0'; k <= '9'; k++)
-
-																			{
-
-																								if (c < i && i < k)
-
-																													{
-
-																																			putchar(c);
-
-																																								putchar(i);
-
-																																													putchar(k);
+												d = a % 10; /* singles */
 
 
 
-																																																		if (c != '7')
+														if (b < c && c < d)
 
-																																																								{
 
-																																																															putchar(',');
 
-																																																																					putchar(' ');
+																	{
 
-																																																																										}
+																					putchar(b + '0');
 
-																																																						}
+																								putchar(c + '0');
 
-																											}
+																											putchar(d + '0');
 
-																	}
 
-									}
+
+																														if (a < 700)
+
+
+
+																																		{
+
+																																							putchar(',');
+
+																																											putchar(' ');
+
+																																														}
+
+																																}
+
+															}
 
 				putchar('\n');
+
+
 
 					return (0);
 
 }
-
-
