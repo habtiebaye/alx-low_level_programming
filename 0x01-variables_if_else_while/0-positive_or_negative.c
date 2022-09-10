@@ -16,7 +16,7 @@ if (n > 0)
 /* if condition is true then print the following */
 printf("%d is positive\n", n);
 }
- else if (n == 0)
+else if (n == 0)
 {
 /* if else if condition is true */
 printf("%d is zero\n", n);
