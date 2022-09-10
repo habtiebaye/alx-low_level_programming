@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-
-
 /**
  *
- *   * main - Prints 3 combination of numbers
+ * * main - Prints 3 combination of numbers
  *
- *     *
+ * *
  *
- *       * Return: Always (Success)
+ * * Return: Always (Success)
  *
- *         */
+ * *
+ *
+ */
 
 int main(void)
 
@@ -84,8 +84,6 @@ int main(void)
 
 				putchar('\n');
 
-
-
-					return (0);
+				return (0);
 
 }
