@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints 3 combination of numbers
+ *
+ * * main - Prints 3 combination of numbers
  *
  * *
  *
@@ -62,5 +63,3 @@ int main(void)
 	return (0);
 
 }
-
-
