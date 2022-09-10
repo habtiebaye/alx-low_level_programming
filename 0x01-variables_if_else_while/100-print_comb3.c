@@ -17,9 +17,9 @@ int main(void)
 
 	int c, i;
 
-	c = i = '1';
+	c = i = '0';
 
-	for (c = '1'; c <= '9'; c++)
+	for (c = '0'; c <= '9'; c++)
 
 	{
 
@@ -50,5 +50,3 @@ int main(void)
 	return (0);
 
 }
-
-
