@@ -2,7 +2,7 @@
 
 
 
-/*
+/* *
  *
  * * print_alphabet - Make the alphabet
  *
@@ -22,7 +22,7 @@ void print_alphabet(void)
 
 
 
-			for (c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 
 					{
 
