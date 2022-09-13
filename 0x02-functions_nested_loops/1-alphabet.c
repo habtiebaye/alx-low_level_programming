@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * * print_alphabet - Make the alphabet
  *
  * *
@@ -22,11 +21,11 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 
-	{
+        	{
 
 			_putchar(c);
 
-	}
+	        }
 
 	_putchar('\n');
 
