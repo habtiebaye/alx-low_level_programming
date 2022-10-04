@@ -5,7 +5,7 @@
 #include <stdlib.h>
 /**
  *
- *  * create_array - function that creates an array of chars, and initializes it
+ * create_array - function that creates an array of chars, and initializes it
  *
  *   * with a specific char
  *
@@ -17,12 +17,13 @@
  *
  *       * Return: Pointer
  *
- *        */
+ */
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *str;
 	if (size == 0)
+
 	{
 		return (0);
 	}
